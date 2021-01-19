@@ -18,7 +18,7 @@ Android mobile application that provides the e-services of Rayat portal used in 
 - Programming languages: Java, and XML.
 - Firebase Realtime Database. 
 
-## Interfaces:
+## Users:
 Students and Student Affairs Employee.
 
 ## Interfaces:

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".UserAppoints">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/idnumber"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:hint="الرقم التدريبي"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="120dp"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/font_size_large"
+            android:textColorHint="@color/colorAccentDark"
+            android:background="@drawable/round_button"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:textColorHint="@color/colorAccentDark"
+            android:id="@+id/contentofAppoint"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:hint="رسالة توضيحية"
+            android:gravity="top"
+            android:textSize="@dimen/font_size_large"
+            android:background="@drawable/round_button"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"/>
+        <LinearLayout
+            android:gravity="center|left"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginLeft="16dp"
+
+                android:id="@+id/button1"
+                android:src="@drawable/date_icon_dark"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+            <TextView
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:hint="التاريخ"
+                android:paddingBottom="8dp"
+                android:textColorHint="@color/colorAccentDark"         android:paddingLeft="8dp"
+                android:layout_marginLeft="16dp"
+                android:textSize="@dimen/font_size_large"
+                android:background="@drawable/round_button"
+                android:id="@+id/time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/addApoointments"
+        android:src="@drawable/add_button_dark"
+        android:text="click me"
+        android:padding="16dp"
+        android:layout_gravity="bottom|right"
+        android:layout_width="120dp"
+        android:layout_height="120dp">
+
+    </ImageView>
+
+</FrameLayout>

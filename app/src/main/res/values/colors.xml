@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#758bb7</color>
+    <color name="colorPrimaryDark">#758bb7</color>
+    <color name="colorAccent">#FEEDB9</color>
+    <color name="colorAccent2">#FFBDD7</color>
+    <color name="darkGray">#758bb7</color>
+    <color name="colorAccentDark">#D1B156</color>
+    <color name="darkerGray">#C7CFDE</color>
+    <color name="fontDark">#000</color>
+    <color name="fontmedium">#555</color>
+    <color name="fontlight">#fff</color>
+    <color name="backgroundColor">#fff</color>
+
+
+
+    EAC35C
+</resources>

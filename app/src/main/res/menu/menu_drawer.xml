@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/view_file"
+        android:title="استعراض الملف الشخصي"
+        android:icon="@drawable/ic_person_black_24dp"
+
+        />
+
+    <item
+        android:id="@+id/edit_file"
+        android:title="تعديل بيانات الحساب"
+        android:icon="@drawable/ic_edit_profile"
+        />
+    <item
+        android:id="@+id/myRequest"
+        android:title="سجل طلباتي"
+        android:icon="@drawable/ic_access_time_black_24dp"
+        />
+    <item
+        android:id="@+id/myAppointment"
+        android:title="مواعيدي"
+        android:icon="@drawable/ic_date_range_black_24dp"
+        />
+    <item
+        android:id="@+id/help"
+        android:title="مساعدة"
+        android:icon="@drawable/ic_help"
+        />
+    <item
+        android:id="@+id/setting"
+        android:title="الإعدادات"
+        android:icon="@drawable/setting_icon"
+        />
+    <item
+        android:id="@+id/sign_out"
+        android:title="تسجيل الخروج"
+        android:icon="@drawable/ic_sign_out"
+        />
+
+</menu>

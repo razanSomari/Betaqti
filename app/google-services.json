@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "63309150176",
+    "firebase_url": "https://betaqti-2dbfb.firebaseio.com",
+    "project_id": "betaqti-2dbfb",
+    "storage_bucket": "betaqti-2dbfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63309150176:android:196c649b3955ca51",
+        "android_client_info": {
+          "package_name": "com.example.ruzun.betaqti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63309150176-s4taidlv5u8m8lbqfe5lafatut3b1ja1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ruzun.betaqti",
+            "certificate_hash": "835b8df8ad4bee8fb98439f93c99d730d298ed9a"
+          }
+        },
+        {
+          "client_id": "63309150176-rrs70nf773kt5p6r65v6s158u58kg4dg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKy3_skCQwvz-olCTDRe37_TChM6Lp18Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63309150176-rrs70nf773kt5p6r65v6s158u58kg4dg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

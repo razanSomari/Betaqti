@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LogInActivity"
+    android:gravity="center"
+    android:paddingTop="60dp"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:src="@drawable/app_logo_2" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp">
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textColorHint="@color/fontmedium"
+            android:textSize="@dimen/font_size_medium"
+            android:layout_marginBottom="16dp"
+            android:hint="البريد الالكتروني" />
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textColorHint="@color/fontmedium"
+            android:layout_marginBottom="16dp"
+            android:password="true"
+            android:textSize="@dimen/font_size_medium"
+            android:hint="كلمة المرور"/>
+
+        <Button
+            android:id="@+id/buttonSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccentDark"
+            android:background="@drawable/round_button"
+            android:textSize="@dimen/font_size_large"
+            android:text="تسجيل الدخول"
+            />
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:orientation="horizontal">
+
+
+         <TextView
+             android:id="@+id/textViewSignUp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="@dimen/font_size_large"
+             android:textColor="@color/fontmedium"
+             android:text="حساب جديد"
+             />
+
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="@dimen/font_size_large"
+             android:textColor="@color/fontmedium"
+             android:text="غير مسجل؟ "/>
+
+     </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/requests"
+        android:title="تحرير الطلبات"
+        android:icon="@drawable/ic_edit_profile"
+        />
+    <item
+        android:id="@+id/UsersAppointment"
+        android:title="مواعيد"
+        android:icon="@drawable/ic_date_range_black_24dp"
+        />
+
+    <item
+        android:id="@+id/setting"
+        android:title="الإعدادات"
+        android:icon="@drawable/setting_icon"
+        />
+
+    <item
+        android:id="@+id/sign_out"
+        android:title="تسجيل الخروج"
+        android:icon="@drawable/ic_sign_out"
+        />
+
+</menu>

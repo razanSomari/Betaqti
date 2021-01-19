@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#fff"
+    tools:context=".EditFile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText_name"
+                android:background="@drawable/round_button_grey"
+                android:paddingLeft="8dp"
+                android:paddingRight="16dp"
+                android:gravity="right"
+                android:text="A"
+                android:textStyle="bold"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"/>
+
+            <TextView
+
+                android:id="@+id/textView_name"
+                android:text="اسم المتدربة"
+                android:gravity="right"
+                android:textColor="@color/fontDark"
+                android:layout_width="0dp"
+                android:textSize="@dimen/font_size_large"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:text="A"
+                android:paddingRight="16dp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:id="@+id/editText_number"
+                android:background="@drawable/round_button_grey"
+                android:paddingLeft="8dp"                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"/>
+
+            <TextView
+                android:id="@+id/textView_number"
+                android:text="الرقم التدريبي"
+                android:gravity="right"
+                android:textSize="@dimen/font_size_large"
+                android:textColor="@color/fontDark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:text="A"
+                android:id="@+id/editText_email"
+                android:background="@drawable/round_button_grey"
+                android:paddingLeft="8dp"
+                android:paddingRight="16dp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"/>
+
+            <TextView
+                android:id="@+id/textView_email"
+                android:text="البريد الالكتروني"
+                android:gravity="right"
+                android:textSize="@dimen/font_size_large"
+                android:textColor="@color/fontDark"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:textStyle="bold"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="A"
+                android:paddingRight="16dp"
+                android:gravity="right"
+                android:id="@+id/editText_IDexpiryDate"
+                android:background="@drawable/round_button_grey"
+                android:paddingLeft="8dp"                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"/>
+
+            <TextView
+                android:id="@+id/textView_IDexpiryDate"
+                android:text="تاريخ انتهاء البطاقة"
+                android:gravity="right"
+                android:textColor="@color/fontDark"
+
+
+                android:layout_width="0dp"
+                android:textSize="@dimen/font_size_large"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:gravity=""
+            android:orientation="horizontal">
+
+            <EditText
+                android:text="A"
+                android:paddingRight="16dp"
+                android:gravity="right"
+                android:id="@+id/editText_IDType"
+                android:background="@drawable/round_button_grey"
+                android:paddingLeft="8dp"
+                android:textStyle="bold"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"/>
+
+            <TextView
+                android:id="@+id/textView_IDType"
+                android:text="نوع البطاقة"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:textSize="@dimen/font_size_large"
+                android:textColor="@color/fontDark"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccentDark"
+        android:background="@drawable/round_button"
+        android:textSize="@dimen/font_size_large"
+        android:layout_margin="64dp"
+        android:textStyle="bold"
+        android:text="تحديث البيانات"
+        />
+
+</LinearLayout>

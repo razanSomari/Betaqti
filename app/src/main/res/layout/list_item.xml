@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:minHeight="@dimen/list_item_height"
+    android:background="#fff">
+
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal">
+
+        <TextView
+            android:paddingLeft="8dp"
+            android:gravity="right"
+            android:textColor="@color/fontDark"
+            android:id="@+id/requester"
+            android:textSize="@dimen/font_size_large"
+            android:text="صاحب الطلب"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:paddingLeft="8dp"
+            android:id="@+id/type"
+            android:textSize="@dimen/font_size_large"
+            android:text="نوع الطلب"
+            android:textColor="@color/fontDark"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"/>
+        <CheckBox
+            android:id="@+id/state"
+            android:buttonTint="@color/fontDark"
+            android:textSize="@dimen/font_size_large"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

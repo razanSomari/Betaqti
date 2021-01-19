@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:id="@+id/drawer2"
+    tools:context=".Records">
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        app:itemTextColor="@color/darkGray"
+        app:itemIconTint="@color/darkGray"
+        app:menu="@menu/menu_drawer_2"
+        android:layout_gravity="start"
+        >
+    </android.support.design.widget.NavigationView>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fff">
+
+        <LinearLayout
+            android:background="@color/colorPrimary"
+
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/fontlight"
+                android:paddingLeft="8dp"
+                android:gravity="right"
+                android:textSize="@dimen/font_size_large"
+                android:text="صاحب الطلب"
+                android:layout_width="0dp"
+                android:textStyle="bold"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:paddingLeft="8dp"
+                android:textSize="@dimen/font_size_large"
+                android:textColor="@color/fontlight"
+                android:textStyle="bold"
+                android:text="نوع الطلب"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="الحالة"
+                android:textStyle="bold"
+                android:textSize="@dimen/font_size_large"
+                android:textColor="@color/fontlight"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+
+
+
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:padding="16dp"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/undo_2"
+        android:layout_width="100dp"
+        android:onClick="undo"
+        android:layout_height="100dp">
+
+
+    </ImageView>
+</FrameLayout>
+
+</android.support.v4.widget.DrawerLayout>

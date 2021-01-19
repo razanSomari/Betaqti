@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:paddingTop="32dp"
+    android:gravity="center"
+    android:background="#ffffff">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:paddingTop="0dp"
+        android:paddingBottom="32dp"
+        android:paddingRight="48dp"
+        android:paddingLeft="48dp"
+
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:textColorHint="@color/fontmedium"
+            android:textSize="@dimen/font_size_medium"
+            android:hint="البريد الالكتروني" />
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/font_size_medium"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:gravity="right"
+            android:textColorHint="@color/fontmedium"
+            android:password="true"
+            android:hint="كلمة المرور"/>
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:textColorHint="@color/fontmedium"
+            android:hint="اسم المتدربة "/>
+        <EditText
+            android:id="@+id/editTextID"
+            android:textColorHint="@color/fontmedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:textSize="@dimen/font_size_medium"
+            android:hint="الرقم التدريبي"/>
+
+
+
+        <LinearLayout
+            android:layoutDirection="rtl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/editTextExpiryDate"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:textColorHint="@color/fontmedium"
+                android:editable="false"
+                android:layout_height="wrap_content"
+                android:hint="تاريخ انتهاء البطاقة"
+                android:textSize="@dimen/font_size_medium"
+                android:textColor="@color/fontmedium"/>
+            <Button
+                android:textColor="@color/colorAccentDark"
+                android:text="هجري"
+                android:background="@drawable/round_button"
+                android:layout_width="0dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:onClick="showHijiri"
+                android:layout_height="wrap_content"></Button>
+            <Button
+                android:textStyle="bold"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/colorAccentDark"
+                android:text="ميلادي"
+                android:background="@drawable/round_button"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="showDialog"
+                android:layout_height="wrap_content"></Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <RelativeLayout
+                android:layout_weight="3"
+                android:paddingBottom="12dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_spinner"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:spinnerMode="dropdown" />
+
+                <ImageView
+                    android:paddingRight="8dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/arr2" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/typelable"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="نوع بطاقة الهوية"
+                android:textSize="@dimen/font_size_medium"
+                android:textColor="@color/fontmedium"/>
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/buttonReg"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="انشاء حساب"
+            android:layout_marginTop="32dp"
+            android:textSize="@dimen/font_size_large"
+            android:textColor="@color/colorAccentDark"
+            android:background="@drawable/round_button"
+            />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center">
+           <TextView
+               android:id="@+id/textViewSignIn"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:textSize="@dimen/font_size_large"
+               android:textColor="@color/fontmedium"
+               android:text="تسجيل الدخول"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="@dimen/font_size_large"
+               android:textColor="@color/fontmedium"
+               android:text="مسجل مسبقاً؟ "/>
+
+
+
+       </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

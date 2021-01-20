@@ -1,5 +1,5 @@
 # E-Services Mobile Application: Betaqti
-Android mobile application that provides the e-services of Rayat portal used in Technical collage.
+Betaqti is a mobile application that provides the e-services of Rayat portal used in Technical collage.
 
 ## Tools used:
 - Android SDK.
